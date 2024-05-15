@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Protest+Strike&display=swap');
+
+:root{
+    --cor-PRI: rgb(150, 24, 24);
+    --cor-SEC: rgb(255, 255, 255);
+    --cor-TER: rgb(0, 0, 0);
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    box-sizing: border-box;
+    /*height: 100vh;*/ 
+    background-color: var(--cor-PRI);
+    color: var(--cor-SEC);
+}
+
+
+.cabeca_menu{
+    padding: 2% 0% 0% 15%;
+}
+
+.link_menu_link{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  2.5rem;
+    color: var(--cor-SEC);
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.link_menu{
+    display: flex;
+    gap: 80px;
+}
+
+
+
+.titulo-destaque{
+    color:#cba407
+}
+
+.apresentacao{
+    padding: 2% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+
+}
+
+.apresentacao_conteudo_titulo{
+    font-size: 2.25rem;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.apresentacao_conteudo{
+    width: 50%;
+    font-size: 1.125rem;
+    font-family: 'Protest Guerrilla', sans-serif;
+    display: flex;
+    flex-direction:  column;
+    gap: 40px;
+}
+
+.apresentacao__links_Subs{
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.apresentacao__links_link{
+    /* background-color: rgb(233, 160, 2); */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2.75px solid var(--cor-SEC);
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 21.5px 0;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Protest Strike', sans-serif;
+
+}
+
+.apresentacao__links_link:hover{
+    background-color: var(--cor-PRI)
+}
+
+
+.Image__CSS{
+    width: 50%;
+}
+.rodape{
+    padding: 24px;
+    color: var(--cor-SEC);
+    background-color:rgb(5, 4, 0);
+    text-align: center;
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 2.5rem;
+}
+
+
+@media (max-width: 1200px){
+
+    .cabeca_menu{
+        padding: 10%;
+    }
+    
+    .link_menu{
+        justify-content: center;
+    }
+    
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    
+    .apresentacao_conteudo{
+        width: auto;
+    }
+}
