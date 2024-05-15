@@ -1,2 +1,3 @@
 # projeto-alura-portf-lio
-Portfólio desenvolvido em HTML e CSS. 
+
+<p>Portfólio desenvolvido em HTML e CSS.</p>
